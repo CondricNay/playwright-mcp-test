@@ -1,14 +1,14 @@
 <template>
   <div id="app">
     <h1>Vue + FastAPI App</h1>
-    <HelloWorld />
+    <TodoApp />
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import TodoApp from './Todo.vue'
 
 export default {
-  components: { HelloWorld }
+  components: { TodoApp }
 }
 </script>
