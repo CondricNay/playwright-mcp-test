@@ -13,9 +13,9 @@ app.add_middleware(
 )
 
 DB_CONFIG = {
-    "host": "localhost",
-    "user": "root",
-    "password": "",
+    "host": "mysqldb_dev",
+    "user": "dgdev",
+    "password": "dg@dev",
     "database": "mcp_db"
 }
 

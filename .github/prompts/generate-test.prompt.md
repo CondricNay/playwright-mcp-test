@@ -22,9 +22,12 @@ and execute the test file, iterating until the test passes.
 Include appropriate assertions to verify the expected behavior
 and structure tests properly with descriptive test titles and comments.
 
-My website base URL is localhost:5000.
 Run the test with "headless" = false.
-Always use Model Context Protocol Server (enable for me if not already enabled).
-The test should be in "frontend/tests" folder which already exists and the new test generated should not override existing tests or delete it.
-The test should be run from frontend directory, not the root directory
+Always use Model Context Protocol Server (try to enable  the server
+for me if not already enabled).
+The test should be in "tests" folder which already exists and the new test generated should not override existing tests or delete it.
+The test should be run from the directory that is available.
 because the playwright library is not installed in the root directory.
+The test should be run on the path that playwright is available.
+The browser should not be closed after the test is successful (use pause function at the end)
+The error messages sometimes maybe be just a red text instead.

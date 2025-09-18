@@ -1,0 +1,7 @@
+Follow instructions in [generate-test.prompt.md](file:///d%3A/Project-Nay/playwright-mcp-test/.github/prompts/generate-test.prompt.md).
+test https://dsso-sit.smebank.local/login login with
+
+username: pa67132
+password: P@ssw88rd
+
+then go to จัดการสิทธิ์ then to กลุ่มผู้ใช้งาน then search "SSO" on the serachbar
