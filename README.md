@@ -1,47 +1,44 @@
 # Playwright MCP Automation Testing
 
-## 1. Setup Virtual Environment
-# Create virtual environment
+# 1. Setup Virtual Environment
+## Create virtual environment
 python -m venv venv         
 
 # Activate environment
-# On Linux/Mac
+## On Linux/Mac
 source venv/bin/activate    
 
-# On Windows
+## On Windows
 venv\Scripts\activate       
 
-## 2. Install Backend Dependencies
+# 2. Install Backend Dependencies
 cd backend
 pip install -r requirements.txt
 
-## 3. Install Frontend Dependencies
+# 3. Install Frontend Dependencies
 cd frontend
 npm install
 
-## 4. Run Frontend
+# 4. Run Frontend
 cd frontend
 npm run dev
 
-## 5. Run Backend
+# 5. Run Backend
 cd backend
 uvicorn main:app --reload --port 8000
 
-## 6. Run Playwright Tests
-# Go to tests folder
+# 6. Run Playwright Tests
+## Go to tests folder
 cd tests
 
-# Run all Playwright tests
+## Run all Playwright tests
 npx playwright test
 
-# Run a specific test file
+## Run a specific test file
 npx playwright test example.spec.ts
 
-# Run in headed mode (see browser)
+## Run in headed mode (see browser)
 npx playwright test --headed
-
-# Generate code via Codegen
-npx playwright codegen http://localhost:3000
 
 ## 7. MCP Integration Notes
 - Ensure your **MCP client** (e.g., ChatGPT, Copilot, Claude) is connected.  
